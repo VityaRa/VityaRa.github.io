@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/BGNew.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#navPar {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    background-color: rgb(72, 72, 145);
+    height: 40px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navContent {
+    color:white;
+    float: left;
+    padding: 10px;
+    width: 18,5%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.mainContent{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80.5%;
+    height: 100%;
+    margin-top: 1%;
+}
+
+#testJS {
+    z-index: 999999;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.downText {
+    color: whitesmoke;
+    position: absolute;
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40%;
+}
+
+.sqr {
+    background-color: black;
+    width: 47%;
+    height: 47%;
+}
+
+#sqr1.sqr {
+    float:right;
+}
+
+#sqr2.sqr {
+
+}
+
+#sqr3.sqr {
+    float:right;
+    margin-top: 6%;
+}
+
+#sqr4.sqr {
+    margin-top: 6%;
+}
+
+
