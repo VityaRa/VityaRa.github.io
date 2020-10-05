@@ -88,3 +88,20 @@ ul.navigationList li{
 {
     color: #201d2c;
 }
+
+.botNav ul li::before
+{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.botNav ul:nth-child(1)::before
+{
+    
+}
