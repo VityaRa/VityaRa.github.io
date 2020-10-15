@@ -1,107 +1,134 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed&display=swap');
+
+* {
+    box-sizing: border-box;
     margin: 0;
-    margin-top: 0.5%;
     padding: 0;
+    background-color: rgb(22, 22, 34);
+    overflow: hidden;   
+}
+
+.navPanel a{
+    font-family:'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+body{
+    transition: 0.5s;
+    background-image: url("back.png");
+}
+a{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a.vit{
+    border: 2px solid white;
+    padding: 10px 60px;
+}
+
+a.vit:hover{
+    padding: 10px 80px;
+    box-shadow: 0 0 20px white; 
+}
+
+a.cta{
+    border: 2px solid rgba(0,136,169,1);
+    border-radius: 30px;
+    padding: 10px 60px;
+    background-color: rgba(0,136,169,1);
+}
+
+a.cta:hover{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 80px;
+    box-shadow: 0 0 20px rgba(0,136,169,1); 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navPanel{
+    list-style: none;
+}
+
+.navPanel li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navPanel li a, .vit, .cta{
+    transition: 0.3s;
+}
+
+.navPanel li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
+
+button:hover{
+    background-color:  rgba(0,136,169,0.8);
+}
+
+content{
+    height: 1000px;
+}
+
+footer{
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: #031321;
-    font-family: consolas;
-}
-
-#nav
-{
-    text-align: center;
-    position: relative;   
-    background: radial-gradient (#2195f3, rgb(206, 88, 88));
+    padding: 10px 20%;
+    margin-top: 30%;
 }
 
 
-ul.navigationList li{
-    display: inline;
-}
-.navigationList a {
-    
-    position: relative;
+footer ul li{
     display: inline-block;
-    padding: 15px 30px;
-    color: #2196f3;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-}
-.navigationList a:hover {
-    color: #255784;
-    background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-    transition-delay: 1s;
-}
-.navigationList a span {
-    position: relative;
-    display: block;
-}
-.navigationList a span:nth-child(1) {
-    top: -15px;
-    left: -122%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
-}
-.navigationList a:hover span:nth-child(1) {
-    left: 130%; 
-    transition: 0.5s;
-}
-.navigationList a span:nth-child(3) {
-    bottom: -44px;
-    right: -122%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
-}
-.navigationList a:hover span:nth-child(3) {
-    right: 100%; 
-    transition: 0.5s;
-    transition-delay: 0.5s;
-}
-
-.botNav
-{
-    margin-top: 100%;
-    height: 3%;
-    text-align: center;
-    align-items: center;    
-    margin-bottom: 10vh;
-}
-
-
-.botNav li
-{
-    display:inline;
-    list-style: none;
-    font-size: 50px;
-    padding: 20px;
-}
-
-.botNav li a
-{
-    color: #201d2c;
-}
-
-.botNav ul li::before
-{
-    font-family: fontAwesome;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 50px;
-    height: 0;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-}
-
-.botNav ul:nth-child(1)::before
-{
     
 }
+
+
+footer ul li a .fa{
+    color: grey;
+    transition: 0.5s;
+    padding: 5px;
+    font-size: 80px;
+
+}
+
+footer ul li a .fa-vk:hover{
+    color: rgb(64, 46, 230);
+
+}
+
+footer ul li a .fa-youtube:hover{
+    color: rgb(201, 27, 27);
+}
+
+footer ul li a .fa-github:hover{
+    color: rgb(127, 26, 158);
+}
+
