@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(22, 22, 34);
-    overflow: hidden;   
+    background-image: none;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .navPanel a{
@@ -21,8 +22,12 @@
 
 body{
     transition: 0.5s;
-    background-image: url("back.png");
+    background: linear-gradient(rgba(0,0,0,0) 50%, rgb(22, 22, 37), rgb(28,28,32));
+    background-image: url("BACKPHOTO.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 a{
     font-family: 'Sansita Swashed', cursive;
     font-weight: 500;
@@ -59,16 +64,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 2% 10%;
 }
 
 .navPanel{
     list-style: none;
+    position: relative;
+    left: 8%;
 }
 
 .navPanel li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0px 1.5em;
 }
 
 .navPanel li a, .vit, .cta{
@@ -80,7 +87,7 @@ header {
 }
 
 button{
-    padding: 9px 25px;
+    padding: 13px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 50px;
@@ -93,15 +100,18 @@ button:hover{
 }
 
 content{
-    height: 1000px;
+    min-height: 1000px;
+    
 }
 
 footer{
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 20%;
-    margin-top: 30%;
+    top: 4400px;
+    left: 17%;
 }
 
 
@@ -132,3 +142,200 @@ footer ul li a .fa-github:hover{
     color: rgb(127, 26, 158);
 }
 
+
+div#frame1{
+    background-color: rgba(22, 22, 37, 0.3);
+    color: white;
+    font-size: 40px;
+    padding: 1% 1.5%;
+}
+
+div#frame2{
+    background-color: rgba(22, 22, 37, 0.3);
+    color: white;
+    font-size: 40px;
+    padding: 1% 1.5%;
+}
+
+div#frame3{
+    background-color: rgba(22, 22, 37, 0.3);
+    color: white;
+    font-size: 40px;
+    padding: 1% 1.5%;
+}
+
+#frame1{
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+
+
+#frame2{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+
+#frame3{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+
+.content{
+    position: relative;
+    top: 1200px;
+
+}
+
+.line{
+    border: 3px solid rgba(255, 255, 255, 0.315);
+    position: relative;
+    border-bottom: 0;
+}
+
+.contentHat{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 42%;
+    margin-right: 42%;
+    border: 3px solid rgba(255, 255, 255, 0.521);
+    padding: 0.7%;
+    background-color: rgba(22, 22, 37, 0.3);
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+div#text1{
+    position: relative;
+    top: 150px;
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgb(22, 22, 37);
+    width: 30%;
+    height: 500px;
+    margin-left: 160px;
+    text-align: left;
+    border: 3px solid rgba(245, 222, 179, 0.562);
+    border-radius: 50px;
+}
+
+div#text2{
+    position: absolute;
+    top: 170px;
+    left: 800px;
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgb(22, 22, 37);
+    width: 25%;
+    height: 400px;
+    margin-left: 160px;
+    text-align: left;
+    border: 3px solid rgba(245, 222, 179, 0.562);
+    border-radius: 50px;
+}
+
+div#text3{
+    position: absolute;
+    top: 650px;
+    left: 700px;
+    color: rgba(255, 255, 255, 0.637);
+    background-color: rgb(22, 22, 37);
+    width: 25%;
+    height: 250px;
+    margin-left: 160px;
+    text-align: left;
+    border: 3px solid rgba(245, 222, 179, 0.562);
+    border-radius: 50px;
+}
+
+.cont1{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+.cont2{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+.cont3{
+    margin: 20px 30px;
+    font-size: 20px;
+}
+
+.line2{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    position: relative;
+    top: 400px;
+    margin-top: 100px;
+    border-bottom: 0;
+}
+
+.mphat{
+    position: relative;
+    margin-top: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.644);
+    margin-left: 42%;
+    margin-right: 42%;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.hattxt{
+    padding: 10px;
+}
+
+#firstPic{
+    background-image: url(myproj1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 900px;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 80px;
+}
+
+#secondPic{
+    background-image: url(number2.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 680px;
+    margin-left: 650px;
+    position: relative;
+    margin-top: 0px;
+}
+
+
+#thirdPic{
+    background-image: url(number3.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 900px;
+    margin-left: 100px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.line3{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    position: relative;
+    margin-top: 100px;
+    border-bottom: 0;
+}
+
+#firstPicText{
+    position: absolute;
+    margin-left: 100px;
+    color: red;
+}
+
+#secondPicText{
+    
+}
+
+#thirdPicText{
+    
+}
