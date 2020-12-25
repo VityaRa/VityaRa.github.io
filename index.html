@@ -1,116 +1,164 @@
 <!doctype html>
 
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Vityarka</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="shortcut icon" href="cat.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <header>
-    <a class = "vit" href = "#">Vityarka</a>
-    <nav>
-      <ul class = "navPanel">
-        <li><a href = "#">About me</a></li>
-        <li><a href = "#">Projects</a></li>
-        <li></li>
-      </ul>
-    </nav>
-    <a class = "cta" href = "#">Contacts</a>
-  </header>
 
 
-    <div class = "content">
 
-      <div class = "line">
+  <!-- <div class="top_content" id = "top">
+
+    <div class="nav_bar">
+      <div class="nav_logo"><a href="#" class="nav_content">LOGO</a></div>
+      <div class="on_site_bar">
+        <a href="#skillsID" class="nav_content">Skills&Education</a>
+        <a href="#" class="nav_content">Links</a>
       </div>
-
-      <div class = "contentHat">
-        <p>About me</p>
-      </div>
-      
-      <div class = "meText">
-        
-        <div id = "text1">
-          <div class = "cont1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent turpis magna, consequat non dui sed, blandit condimentum lectus. Fusce elementum congue lectus, eget sollicitudin orci scelerisque eget. Curabitur malesuada et elit eget egestas. Aenean nec dignissim felis. Donec a rhoncus justo. In elementum magna massa, luctus suscipit ipsum cursus scelerisque. Curabitur ac imperdiet ipsum, eu gravida erat. Mauris elementum sed lorem ut fringilla. Fusce in nibh sapien. Nulla ullamcorper, nisl eu cursus finibus, elit libero lobortis felis, a finibus enim dui a metus. Aenean eget imperdiet libero, eu consectetur ante. Praesent lobortis lacus eu magna accumsan elementum. Quisque in libero lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-          </p></div>
-        </div>
-
-        <div id = "text2">
-          <div class = "cont2"><p>Curabitur id elementum turpis, nec sodales mauris. Donec rutrum sagittis varius. Aenean porttitor orci quis neque accumsan, in euismod sapien pellentesque. Ut est enim, faucibus ac urna ac, placerat tristique ex. Phasellus at nulla pellentesque, imperdiet quam id, bibendum odio.</p></div>
-        </div>
-
-        <div id = "text3">
-          <div class = "cont3"><p>Curabitur porttitor, elit ac imperdiet pretium, nulla quam fringilla quam, eget gravida sapien mauris a nisl. Nunc sed pretium nibh, sit amet aliquam erat. Praesent tristique tristique massa viverra vulputate. Integer sagittis urna tempus laoreet placerat.</p></div>
-        </div>
-
-      </div>
-
-      <div class = "line2">
-      </div>
-      
-      <div class = "MyProjects">
-
-        <div class = "mphat">
-          <div class = "hattxt">MyProjects</div>
-        </div>
-
-        <div id = "firstPic">
-          
-        </div>
-
-        <div id = "firstPicText">
-          This is my first program on C++. I wrote this code when I didn't really understand what C++ was so it looks a bit stupid =)
-        </div>
-
-        <div id = "secondPic">
-          
-        </div>
-
-        <div id = "secondPicText">
-          asd
-        </div>
-
-        <div id = "thirdPic">
-          
-        </div>
-
-        <div id = "thirdPicText">
-          asd
-        </div>
-        
-        <div class = "line3">
-        </div>
-
-      </div>
-
-
     </div>
 
+    <div class="main_view">
+      <h1 class="title">VITYARKA</h1>
+      <p class="title no_underline sub_title">Junior_Frontend_developer, Designer</p>
+    </div>
 
-      <div id = "frame1">
-        <p>Welcome!</p>
-       </div>
+  </div>
+  <div class="sk-ed-container">
+    
+    <div id="skillsID" class="skills">
+      <p1 class="plug">PLUG</p1>
+      
+      <h1 class="title no_margin_top yellow_color">
+        Skills
+      </h1>
 
-      <div id = "frame2">
-        <p>My name is Victor</p>
+      
+
+      <div class="skills_about_block">
+        <div class="hard_skills_block skills_container">
+          <h1 class="hard_skills sub_title">#Main_skills</h1>
+          <ul class = "hard_skills left_text">
+
+            <li>
+              <div class="progress">
+                <span><p>JS + JQuery, React</p></span>
+                  <div class="lines">
+                    <hr class="completed">
+                    <hr class="uncompleted">
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="progress">
+                <span><p>CSS + Bootstrap, SASS</p></span>
+                  <div class="lines">
+                    <hr class="completed">
+                    <hr class="uncompleted">
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="progress">
+                <span><p>Cpp</p></span>
+                  <div class="lines">
+                    <hr class="completed">
+                    <hr class="uncompleted">
+                  </div>
+              </div>
+            </li>
+
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+  
+        <div class="soft_skills_block skills_container">
+          <h1 class="soft_skills sub_title">#Extra_skills</h1>
+          <ul class = "soft_skills left_text">
+
+            <li>
+                <span><p>Git</p></span>
+                <hr>
+            </li>
+
+            <li>
+              <span><p>English</p></span>
+              <hr>
+            </li>
+
+            <li>
+              <span><p>Photoshop, XD</p></span>
+              <hr>
+            </li>
+
+          </ul>
+        </div>
       </div>
 
-      <div id = "frame3">
-        <p>This is my portfolio website</p>
+      <div class="education-about-block"></div>
+    
+      
+    </div>
+
+    <div class="education">
+      <h1 class="title no_margin_top yellow_color">
+        Education
+      </h1>
+    </div>
+
+  </div>  -->
+
+
+  <a class="to-top-button" href="#top">TOP</a>
+
+  <div class="top-side">
+    <h1 class="plug">Just a plug</h1>
+    <div class="nav-panel">
+      <div class="nav-elem">
+        <a href="#" class="href">Skills/Education</a>
+        <a href="#" class="href">Projects</a>
+        <a href="#" class="href">Links/Refs</a>
       </div>
 
-  <footer>
-    <ul>
-      <li><a href = "https://vk.com/vityarka" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-      <li><a href = "https://www.yout-+++++++++++++++++*ube.com/channel/UCHf0PFTZUiV9qTgK-2J3ujQ?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-      <li><a href = "https://github.com/VityaRa?tab=repositories"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-    </ul>
-  </footer>
+    </div>
+    <h1 class="title"></h1>
+    <p class="subtitle"></p>
+  </div>
 
+  <div class="main-side">
+    <div class="skills">
+
+    </div>
+    <div class="education">
+
+    </div>
+  </div>
+
+  <div class="bottom-side">
+    <div class="projects">
+      
+    </div>
+  </div>
+
+  <div class="footer-side">
+    <div class="links">
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
 </body>
+
 </html>
