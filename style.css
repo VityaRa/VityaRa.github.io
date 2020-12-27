@@ -33,17 +33,29 @@ a.to-top-button{
 }
 
 .nav-panel{
-    display: flex;
     background-color: rgba(34, 34, 34, 0.5);    
 }
 
-.nav-elem a{
-    width: 33%;
-}
-.nav-elem{
-    margin: 0 30%;
+.nav-cont{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
     justify-content: space-between;
+
 }
-.nav-panel a{
+
+.nav-cont a{
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
     text-decoration: none;
+    color: white;
+}
+
+.nav-elem{
+    padding: 30px;
+    margin: auto;
+    width: 100%;
 }
