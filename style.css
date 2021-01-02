@@ -37,7 +37,7 @@ a.to-top-button{
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 30px 200px;
 }
 
 .nav-panel a{
@@ -59,7 +59,20 @@ a.to-top-button{
     text-align: center;
     color: white;
     font-family:"Oswald", sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
+    font-size: 80px;
+}
+
+.sub-title{
+    font-size: 40px;
+}
+
+.center{
+    margin-top: 25%;
+}
+
+.title__top-side{
+
 }
 
 /*
