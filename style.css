@@ -4,6 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); /*font-family: 'Staatliches', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap'); /*font-family: 'Hind Siliguri', sans-serif;*/
+
+/*TO DO:
+1. Underline for text in nav-panel
+2. Text-shadow for titles
+3. Smooth animation for references
+
+*/
+
+
 
 * {
     margin: 0;
@@ -12,6 +23,15 @@
 
 .plug{
     font-size: 0;
+}
+
+.container{
+    min-height: 975px;
+}
+
+span{
+    color: red;
+    background-color: none;
 }
 
 a.to-top-button{
@@ -26,10 +46,9 @@ a.to-top-button{
     border-radius: 200px;
 }
 
-.top-side{
+.welcome-side{
     background-image: url('back.jpg');
     background-size: cover;
-    min-height: 980px;
 }
 
 .nav-panel{
@@ -58,9 +77,9 @@ a.to-top-button{
 .title{
     text-align: center;
     color: white;
-    font-family:"Oswald", sans-serif;
     letter-spacing: 6px;
-    font-size: 80px;
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
 }
 
 .sub-title{
@@ -68,13 +87,27 @@ a.to-top-button{
 }
 
 .center{
-    margin-top: 25%;
+    margin-top: 220px;
 }
 
-.title__top-side{
+.SE-side{
+    background-color: #007143;
+}
+
+.P-side{
+    background-color: #36D695;
+
+}
+
+.L-side{
+    background-color: #60D6A7;
 
 }
 
 /*
-
+#00AE68
+#21825B
+#007143
+#36D695
+#60D6A7
 */
