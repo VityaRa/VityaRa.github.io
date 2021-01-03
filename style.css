@@ -12,6 +12,7 @@
 2. Smooth animation for references
 3. Color correction
 4. Cross-browser
+5. List-decoration
 */
 
 
@@ -25,8 +26,30 @@
     font-size: 0;
 }
 
-.container{
+
+.my-container{
     min-height: 990px;
+}
+
+.my-proj{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.my-row{
+    width: 100%;
+}
+
+.extra-margin{
+    margin: 0 300px;
+}
+
+.extra-padding{
+    margin: 0 300px;
+}
+
+.bg-container-L{
+    background-color: black;
 }
 
 span{
@@ -103,8 +126,10 @@ a.to-top-button{
 
 .section{
     width: 100%;
-    padding-top: 30px;
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
 }
 
 .title__skills{
@@ -116,13 +141,9 @@ a.to-top-button{
 }
 
 .list li{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Sansita', cursive;
-}
-
-.list li::after{
-    color: red;
 }
 
 .P-side{
@@ -131,8 +152,36 @@ a.to-top-button{
 
 .L-side{
     background-color: #60D6A7;
-
 }
+
+.circle{
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.my-proj{
+    background-color: red;
+    
+}
+
+.refer{
+    font-size: 80px;
+    transition: 0.5s;
+}
+
+.refer:hover{
+    color: red;
+}
+
+
+
+
+
+
 
 /*
 #00AE68
