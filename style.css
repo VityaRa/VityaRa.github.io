@@ -9,9 +9,9 @@
 
 /*TO DO:
 1. Underline for text in nav-panel
-2. Text-shadow for titles
-3. Smooth animation for references
-
+2. Smooth animation for references
+3. Color correction
+4. Cross-browser
 */
 
 
@@ -26,7 +26,7 @@
 }
 
 .container{
-    min-height: 975px;
+    min-height: 990px;
 }
 
 span{
@@ -80,6 +80,7 @@ a.to-top-button{
     letter-spacing: 6px;
     font-size: 100px;
     font-family: 'Staatliches', cursive;
+    text-shadow: 0 4px 10px #000;
 }
 
 .sub-title{
@@ -90,13 +91,42 @@ a.to-top-button{
     margin-top: 220px;
 }
 
+.micro-pad{
+    padding-top: 30px;
+}
+
 .SE-side{
     background-color: #007143;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title__skills{
+    font-size: 40px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    color: white;
+    font-size: 30px;
+    font-family: 'Sansita', cursive;
+}
+
+.list li::after{
+    color: red;
 }
 
 .P-side{
     background-color: #36D695;
-
 }
 
 .L-side{
