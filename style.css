@@ -11,6 +11,7 @@
 3. Color correction
 4. Cross-browser
 5. List-decoration in proj
+6. Content for full page
 */
 
 
@@ -142,7 +143,6 @@ a.to-top-button{
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
-
 }
 
 .title__skills{
@@ -167,14 +167,7 @@ a.to-top-button{
     background-color: #60D6A7;
 }
 
-.circle{
-    width: 600px;
-    margin: auto;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px;
-}
+
 
 .__row{
     display: flex;
@@ -189,21 +182,58 @@ a.to-top-button{
     border-radius: 10px;
     height: 300px;
     margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, .1);
 }
 
 .__col:hover{
     background-color: red;
 }
 
+.col-pict{
+    height: 220px;
+    background-color: rgba(34, 34, 34, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circle{
+    width: 700px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
 
 .refer{
-    font-size: 80px;
+    font-size: 100px;
     transition: 0.5s;
+    color: teal;
 }
 
-.refer:hover{
+
+
+.refer:nth-child(1):hover{
+    color: #2C507A;
+}
+
+.refer:nth-child(2):hover{
+    color: #0A66C2;
+}
+
+.refer:nth-child(3):hover{
+    color: purple;
+}
+
+.refer:nth-child(4):hover{
+    color: #B139A3;
+}
+
+.refer:nth-child(5):hover{
     color: red;
 }
+
+
 
 
 
