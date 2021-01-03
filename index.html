@@ -17,20 +17,26 @@
 
 <body>
 
-  <a class="to-top-button" href="#top">TOP</a>
+  <a class="to-top-button" href="#top"><div class="arrow arrow-top"></div></a>
   
-  <div class="welcome-side my-container">
+  <div id="top" class="welcome-side my-container">
     <h1 class="plug">Just a plug</h1>
     <div class="nav-panel">
-        <div class="nav-elem"><a href="#" class="href">Skills/Education</a></div>
-        <div class="nav-elem"><a href="#" class="href">Projects</a></div>
-        <div class="nav-elem"><a href="#" class="href">Links</a></div>
+        <div class="nav-elem">
+          <a href="#SE" class="href">Skills/Education</a>
+        </div>
+        <div class="nav-elem">
+          <a href="#P" class="href">Projects</a>
+        </div>
+        <div class="nav-elem">
+          <a href="#L" class="href">Links</a>
+        </div>
     </div>
     <h1 class="title center title__top-side">Vityara</h1>
     <p class="title sub-title">Junior_Frontend_developer<span>/</span>Designer</p>
   </div>
 
-  <div class="SE-side my-container extra-padding">
+  <div id = "SE" class="SE-side my-container extra-padding">
     <div class="skills section micro-pad">
       <h1 class="title">Skills</h1>
 
@@ -76,19 +82,34 @@
     </div>
   </div>
 
-  <div class="P-side my-container extra-margin">
-    <div class="projects micro-pad">
+  <div id = "P" class="P-side my-container extra-padding micro-pad">
       <h1 class="title">Projects</h1>
-        <div class="container"></div>
-          <div class="row">
-            <div class="col my-proj">2</div>
-            <div class="col my-proj">3</div>
-            <div class="col my-proj">3</div>
+      <div class="proj-section">
+        
+        <div class="__row">
+          <div class="__col">
+            <img src="" alt="">
+            <p>Some text bout proj</p>
           </div>
-    </div>
+          <div class="__col">2</div>
+          <div class="__col">3</div>
+          <div class="__col">4</div>
+        </div>
+
+        <div class="__row ">
+          <div class="__col">
+            <img src="" alt="">
+            <p>Some text bout proj</p>
+          </div>
+          <div class="__col">2</div>
+          <div class="__col">3</div>
+          <div class="__col">4</div>
+        </div>
+
+      </div>
   </div>
 
-    <div class="L-side my-container">
+    <div id = "L" class="L-side my-container">
       <div class="links micro-pad">
         <h1 class="title">Links</h1>
         <div class="circle">
@@ -99,7 +120,7 @@
           <a class="refer" href="#"><i class="fa fa-at"></i></a>        
           <a class="refer" href="#"><i class="fa fa-youtube"></i></a>        
         </div>
-        <p class="title sub-title">Contact me here :)</p>
+        <p class="title sub-title">Click to contact me :)</p>
 
       </div>
     </div>

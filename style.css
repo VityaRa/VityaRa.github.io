@@ -8,11 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap'); /*font-family: 'Hind Siliguri', sans-serif;*/
 
 /*TO DO:
-1. Underline for text in nav-panel
-2. Smooth animation for references
 3. Color correction
 4. Cross-browser
-5. List-decoration
+5. List-decoration in proj
 */
 
 
@@ -31,22 +29,15 @@
     min-height: 990px;
 }
 
-.my-proj{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.my-row{
-    width: 100%;
-}
 
 .extra-margin{
     margin: 0 300px;
 }
 
 .extra-padding{
-    margin: 0 300px;
+    padding: 0 300px;
 }
+
 
 .bg-container-L{
     background-color: black;
@@ -59,14 +50,31 @@ span{
 
 a.to-top-button{
     text-decoration: none;
-    font-size: 30px;
     color: white;
     position: fixed;
     right: 20px;
     bottom: 20px;
+    background-color: white;
     padding: 20px;
-    border: 1px solid white;
-    border-radius: 200px;
+    border-radius: 50%;
+}
+
+.arrow{
+    position: relative;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    border-right: 5px solid black;    
+    border-top: 5px solid black;
+}
+
+.arrow-top{
+    transform: rotate(-45deg);
+}
+
+
+.to-top-image {
+    transform: rotate(-90deg);
 }
 
 .welcome-side{
@@ -83,11 +91,16 @@ a.to-top-button{
 }
 
 .nav-panel a{
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-family: 'Andika New Basic';
     font-weight: 700;
     text-decoration: none;
     color: white;
+    transition: 0.5s;
+}
+
+.nav-panel a:hover{
+    color: red;
 }
 
 .nav-elem{
@@ -155,7 +168,7 @@ a.to-top-button{
 }
 
 .circle{
-    width: 500px;
+    width: 600px;
     margin: auto;
     margin-top: 200px;
     display: flex;
@@ -163,10 +176,25 @@ a.to-top-button{
     padding-bottom: 40px;
 }
 
-.my-proj{
-    background-color: red;
-    
+.__row{
+    display: flex;
+    justify-content: space-between;
 }
+
+.__col{
+    margin: 0 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.__col:hover{
+    background-color: red;
+}
+
 
 .refer{
     font-size: 80px;
@@ -176,6 +204,7 @@ a.to-top-button{
 .refer:hover{
     color: red;
 }
+
 
 
 
