@@ -101,7 +101,8 @@ a.to-top-button{
 }
 
 .nav-panel a:hover{
-    color: red;
+    color:#36D695;
+
 }
 
 .nav-elem{
@@ -133,7 +134,7 @@ a.to-top-button{
 }
 
 .SE-side{
-    background-color: #007143;
+    background-color: #48A47F;
     display: flex;
     justify-content: center;
 }
@@ -160,7 +161,7 @@ a.to-top-button{
 }
 
 .P-side{
-    background-color: #36D695;
+    background-color: #8AEBC3;
 }
 
 .L-side{
@@ -176,7 +177,7 @@ a.to-top-button{
 
 .__col{
     margin: 0 20px;
-    width: 100%;
+    width: 50%;
     background-color: white;
     box-shadow: 0 0 20px rgba(0,0,0,1);
     border-radius: 10px;
@@ -185,16 +186,26 @@ a.to-top-button{
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.__col:hover{
-    background-color: red;
-}
 
 .col-pict{
+    transition: .3s;
     height: 220px;
     background-color: rgba(34, 34, 34, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: .3s;
 }
+
+.col-pict img{
+    height: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.col-pict:hover{
+    background-color: #00AE68;
+}
+
 
 .circle{
     width: 700px;
@@ -233,7 +244,9 @@ a.to-top-button{
     color: red;
 }
 
-
+.asd{
+    
+}
 
 
 
@@ -243,9 +256,6 @@ a.to-top-button{
 
 
 /*
-#00AE68
-#21825B
-#007143
-#36D695
-#60D6A7
+#60D6A6	#5EA186	#1F8B60	#8AEBC3	#A3EBCE
+#66A1D1	#61829D	#215988	#8FC0E8	#A7CAE8
 */
