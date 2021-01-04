@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); /*font-family: 'Staatliches', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap'); /*font-family: 'Hind Siliguri', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
 
 /*TO DO:
-3. Color correction
-4. Cross-browser
-5. List-decoration in proj
-6. Content for full page
+1. Cross-browser
+2. Media-Queries
 */
 
 
@@ -25,11 +18,30 @@
     font-size: 0;
 }
 
+.crossed{
+    text-decoration: line-through;
+}
+
+.about-text{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Ubuntu', serif;
+    margin-top: 30px;
+}
 
 .my-container{
     min-height: 990px;
 }
 
+
+.my-photo img{
+    width: 240px;
+    border-radius: 50%;
+    top: 200px;
+    position: relative;
+}
 
 .extra-margin{
     margin: 0 300px;
@@ -44,7 +56,7 @@
     background-color: black;
 }
 
-span{
+.red-symbol{
     color: red;
     background-color: none;
 }
@@ -93,7 +105,7 @@ a.to-top-button{
 
 .nav-panel a{
     font-size: 40px;
-    font-family: 'Andika New Basic';
+    font-family: 'Ubuntu', serif;
     font-weight: 700;
     text-decoration: none;
     color: white;
@@ -117,7 +129,8 @@ a.to-top-button{
     color: white;
     letter-spacing: 6px;
     font-size: 100px;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Exo 2', sans-serif;
+
     text-shadow: 0 4px 10px #000;
 }
 
@@ -137,13 +150,13 @@ a.to-top-button{
     background-color: #48A47F;
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 
 .section{
     width: 100%;
     text-align: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 150px;
 }
 
 .title__skills{
@@ -152,12 +165,14 @@ a.to-top-button{
 
 .list{
     list-style: none;
+    margin-top: 10px;
 }
 
 .list li{
     color: rgb(255, 255, 255);
     font-size: 30px;
-    font-family: 'Sansita', cursive;
+    font-family: 'Ubuntu', serif;
+    margin-top: 10px;
 }
 
 .P-side{
@@ -183,20 +198,23 @@ a.to-top-button{
     border-radius: 10px;
     height: 300px;
     margin-top: 40px;
-    border: 1px solid rgba(255, 255, 255, .1);
+    border: 3px solid rgba(255, 255, 255, .1);
+    cursor: pointer;   
+    font-family: 'Ubuntu', serif;
+
 }
 
 
 .col-pict{
     transition: .3s;
     height: 220px;
-    background-color: rgba(34, 34, 34, 0.5);
+    background-color: rgba(134, 172, 150, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     transition: .3s;
 }
 
-.col-pict img{
+.col-pict a img{
     height: inherit;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
@@ -206,6 +224,9 @@ a.to-top-button{
     background-color: #00AE68;
 }
 
+.col-text{
+    padding: 3px 4px;
+}
 
 .circle{
     width: 700px;
@@ -244,9 +265,6 @@ a.to-top-button{
     color: red;
 }
 
-.asd{
-    
-}
 
 
 
