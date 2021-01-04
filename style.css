@@ -35,11 +35,10 @@
     min-height: 990px;
 }
 
-
 .my-photo img{
     width: 240px;
     border-radius: 50%;
-    top: 200px;
+    top: 150px;
     position: relative;
 }
 
@@ -112,7 +111,7 @@ a.to-top-button{
     transition: 0.5s;
 }
 
-.nav-panel a:hover{
+.nav-panel a:hover {
     color:#36D695;
 
 }
@@ -159,6 +158,9 @@ a.to-top-button{
     padding: 0 150px;
 }
 
+
+
+
 .title__skills{
     font-size: 40px;
 }
@@ -188,6 +190,7 @@ a.to-top-button{
 .__row{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .__col{
