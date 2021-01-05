@@ -22,6 +22,10 @@
     text-decoration: line-through;
 }
 
+.hidden{
+    display: none;
+}
+
 .about-text{
     text-align: left;
     color: white;
@@ -333,6 +337,15 @@ a.to-top-button{
     }
 
   }
+
+  @media screen and (max-width: 1250px) {
+      .nav-panel{
+          padding-left: 0; 
+          padding-right: 0; 
+      }
+  }
+
+
   @media screen and (max-width: 1200px) {
     #P.extra-padding {
       padding: 20px 50px 30px 50px;
@@ -376,8 +389,24 @@ a.to-top-button{
         font-size: 20px;
     }
 
+  }
+
+  @media screen and (max-width: 950px) {
+      .title__top-side{
+          font-size: 60px;
+      }
+    
+      .welcome-side .sub-title{
+          font-size: 30px;
+      }
+
+      .nav-elem a{
+        font-size: 30px;
+      }
+      
 
   }
+  
 
   @media screen and (max-width: 880px) {
     .proj-section{
@@ -421,9 +450,6 @@ a.to-top-button{
         top: 100px;
     }
 
-  }
-
-  @media screen and (max-width: 880px) {
     .SE-main-container{
         display: block;
         padding: 0 100px;
@@ -449,10 +475,44 @@ a.to-top-button{
     }
   }
 
+  @media screen and (max-width: 750px){
+    .nav-panel{
+        display: block;
+        justify-content: none;
+    }
+
+    .nav-elem{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .title__top-side{
+        font-size: 50px;
+    }
+  
+    .welcome-side .sub-title{
+        font-size: 20px;
+        overflow-wrap: break-word;
+    }
+  }
+
+  @media screen and (max-width: 580px){
+      .hidden{
+          display: block;
+      }
+
+      .P-side .title{
+          font-size: 60px;
+      }
+
+      .proj-section{
+          padding: 0;
+      }
+  }
+
   @media screen and (max-width: 516px) {
     .SE-main-container{
         padding: 0;
-
     }
   }
 
