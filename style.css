@@ -39,6 +39,10 @@
     padding-bottom: 200px;
 }
 
+.my-photo{
+    padding: 0 40px 0 80px;
+}
+
 .my-photo img{
     width: 240px;
     border-radius: 50%;
@@ -136,8 +140,16 @@ a.to-top-button{
     text-shadow: 0 4px 10px #000;
 }
 
+.text-title .title, .skills .title{
+    font-size: 80px;
+}
+
+
 .sub-title{
     font-size: 40px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-shadow: 0 4px 10px #000;
 }
 
 .center{
@@ -163,7 +175,7 @@ a.to-top-button{
 .section{
     width: 100%;
     text-align: center;
-    padding: 0 150px;
+    padding: 0 5%;
 }
 
 .decor-text{
@@ -177,7 +189,6 @@ a.to-top-button{
 
 
 .title__skills{
-    font-size: 40px;
     margin-top: 20px;
 }
 
@@ -286,24 +297,41 @@ a.to-top-button{
 }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1615px) {
   #P.extra-padding {
     padding: 20px 200px 30px 200px;
   }
 
   .section{
-      padding: 0 100px;
+      padding: 0;
   }
 }
 
-@media screen and (max-width: 1405px) {
+@media screen and (max-width: 1420px) {
     #P.extra-padding {
-      padding: 20px 100px 30px 100px;
+      padding: 20px 80px 30px 80px;
     }
 
-    .section{
-        padding: 0 50px;
+    p.about-text{
+        font-size: 22px;
     }
+
+    .text-title .title, .skills .title{
+        font-size: 60px;
+    }
+
+    .title__skills{
+        font-size: 40px !important;
+    }
+
+    .list li{
+        font-size: 22px;
+    }
+
+    .my-photo img{
+        width: 200px;
+    }
+
   }
   @media screen and (max-width: 1200px) {
     #P.extra-padding {
@@ -317,7 +345,7 @@ a.to-top-button{
     }
   }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .__row {
       display: block;
     }
@@ -332,9 +360,26 @@ a.to-top-button{
         padding: 0 50px;
     }
 
+    p.about-text{
+        font-size: 20px;
+    }
+
+    .text-title .title, .skills .title{
+        font-size: 40px;
+    }
+
+    .title__skills{
+        font-size: 24px !important;
+    }
+
+    .list li{
+        font-size: 20px;
+    }
+
+
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 880px) {
     .proj-section{
         display: block;
     }
@@ -354,11 +399,62 @@ a.to-top-button{
     .refer{
         display: block;
         position: relative;
+    }
+
+    p.about-text{
+        font-size: 16px;
+    }
+
+    .text-title .title, .skills .title{
+        font-size: 30px;
+    }
+
+    .title__skills{
+        font-size: 22px !important;
+    }
+
+    .list li{
+        font-size: 16px;
+    }
+
+    .my-photo img{
+        top: 100px;
+    }
+
+  }
+
+  @media screen and (max-width: 880px) {
+    .SE-main-container{
+        display: block;
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .my-photo img{
+        margin-top: 40px;
+        top: 0;
+    }
+
+    .my-photo{
+        padding: 0;
+    }
+
+    .skills .title{
+        margin-top: 40px;
+    }
+
+    .about-text{
+    text-align: center;
 
     }
   }
 
+  @media screen and (max-width: 516px) {
+    .SE-main-container{
+        padding: 0;
 
+    }
+  }
 
 
 
