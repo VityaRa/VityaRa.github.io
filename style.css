@@ -35,6 +35,10 @@
     min-height: 990px;
 }
 
+.less-container{
+    padding-bottom: 200px;
+}
+
 .my-photo img{
     width: 240px;
     border-radius: 50%;
@@ -47,7 +51,7 @@
 }
 
 .extra-padding{
-    padding: 0 300px;
+    padding: 20px 300px 30px 300px;
 }
 
 
@@ -129,7 +133,6 @@ a.to-top-button{
     letter-spacing: 6px;
     font-size: 100px;
     font-family: 'Exo 2', sans-serif;
-
     text-shadow: 0 4px 10px #000;
 }
 
@@ -147,10 +150,15 @@ a.to-top-button{
 
 .SE-side{
     background-color: #48A47F;
+    padding: 30px 50px 70px 50px;
+}
+
+.SE-main-container{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
 }
+
+
 
 .section{
     width: 100%;
@@ -158,11 +166,19 @@ a.to-top-button{
     padding: 0 150px;
 }
 
+.decor-text{
+    color:#60D6A7;
+    text-decoration: underline;
+}
 
+.text-space{
+    display: block;
+}
 
 
 .title__skills{
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .list{
@@ -174,8 +190,9 @@ a.to-top-button{
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Ubuntu', serif;
-    margin-top: 10px;
+    margin-top: 20px;
 }
+
 
 .P-side{
     background-color: #8AEBC3;
@@ -195,7 +212,7 @@ a.to-top-button{
 
 .__col{
     margin: 0 20px;
-    width: 50%;
+    width: 400px;
     background-color: white;
     box-shadow: 0 0 20px rgba(0,0,0,1);
     border-radius: 10px;
@@ -268,6 +285,78 @@ a.to-top-button{
     color: red;
 }
 
+
+@media screen and (max-width: 1600px) {
+  #P.extra-padding {
+    padding: 20px 200px 30px 200px;
+  }
+
+  .section{
+      padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1405px) {
+    #P.extra-padding {
+      padding: 20px 100px 30px 100px;
+    }
+
+    .section{
+        padding: 0 50px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    #P.extra-padding {
+      padding: 20px 50px 30px 50px;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    #P.extra-padding {
+      padding: 20px 20px 30px 20px;
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .__row {
+      display: block;
+    }
+
+    .__col{
+        width: 300px;
+    }
+
+    .proj-section{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+  }
+
+  @media screen and (max-width: 850px) {
+    .proj-section{
+        display: block;
+    }
+
+    .__col{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .circle{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .refer{
+        display: block;
+        position: relative;
+
+    }
+  }
 
 
 
