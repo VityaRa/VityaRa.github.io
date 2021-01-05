@@ -494,12 +494,13 @@ a.to-top-button{
         font-size: 20px;
         overflow-wrap: break-word;
     }
+
   }
 
   @media screen and (max-width: 580px){
-      .hidden{
-          display: block;
-      }
+        .hidden{
+            display: block;
+        }
 
       .P-side .title{
           font-size: 60px;
@@ -508,6 +509,18 @@ a.to-top-button{
       .proj-section{
           padding: 0;
       }
+
+      .links .title{
+        font-size: 60px;
+        }
+
+        .links .sub-title{
+            font-size: 30px;
+            }
+
+        .welcome-side .sub-title{
+        font-size: 16px;
+        }
   }
 
   @media screen and (max-width: 516px) {
