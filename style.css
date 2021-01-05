@@ -1,32 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 
-
 /*TO DO:
 1. Cross-browser
 2. Media-Queries
 */
-
-
 
 * {
     margin: 0;
     padding: 0;
 }
 
-.plug{
+.plug {
     font-size: 0;
 }
 
-.crossed{
+.crossed {
     text-decoration: line-through;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.about-text{
+.about-text {
     text-align: left;
     color: white;
     font-size: 30px;
@@ -35,44 +32,43 @@
     margin-top: 30px;
 }
 
-.my-container{
+.my-container {
     min-height: 990px;
 }
 
-.less-container{
+.less-container {
     padding-bottom: 200px;
 }
 
-.my-photo{
+.my-photo {
     padding: 0 40px 0 80px;
 }
 
-.my-photo img{
+.my-photo img {
     width: 240px;
     border-radius: 50%;
     top: 150px;
     position: relative;
 }
 
-.extra-margin{
+.extra-margin {
     margin: 0 300px;
 }
 
-.extra-padding{
+.extra-padding {
     padding: 20px 300px 30px 300px;
 }
 
-
-.bg-container-L{
+.bg-container-L {
     background-color: black;
 }
 
-.red-symbol{
+.red-symbol {
     color: red;
     background-color: none;
 }
 
-a.to-top-button{
+a.to-top-button {
     text-decoration: none;
     color: white;
     position: fixed;
@@ -83,38 +79,37 @@ a.to-top-button{
     border-radius: 50%;
 }
 
-.arrow{
+.arrow {
     position: relative;
     top: 4px;
     width: 20px;
     height: 20px;
-    border-right: 5px solid black;    
+    border-right: 5px solid black;
     border-top: 5px solid black;
 }
 
-.arrow-top{
+.arrow-top {
     transform: rotate(-45deg);
 }
-
 
 .to-top-image {
     transform: rotate(-90deg);
 }
 
-.welcome-side{
+.welcome-side {
     background-image: url('back.jpg');
     background-size: cover;
 }
 
-.nav-panel{
-    background-color: rgba(34, 34, 34, 0.5);    
+.nav-panel {
+    background-color: rgba(34, 34, 34, 0.5);
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 30px 200px;
 }
 
-.nav-panel a{
+.nav-panel a {
     font-size: 40px;
     font-family: 'Ubuntu', serif;
     font-weight: 700;
@@ -124,18 +119,17 @@ a.to-top-button{
 }
 
 .nav-panel a:hover {
-    color:#36D695;
-
+    color: #36D695;
 }
 
-.nav-elem{
+.nav-elem {
     width: 33%;
     margin: auto;
     flex: none;
     text-align: center;
 }
 
-.title{
+.title {
     text-align: center;
     color: white;
     letter-spacing: 6px;
@@ -144,103 +138,95 @@ a.to-top-button{
     text-shadow: 0 4px 10px #000;
 }
 
-.text-title .title, .skills .title{
+.text-title .title,
+.skills .title {
     font-size: 80px;
 }
 
-
-.sub-title{
+.sub-title {
     font-size: 40px;
     color: white;
     font-family: 'Exo 2', sans-serif;
     text-shadow: 0 4px 10px #000;
 }
 
-.center{
+.center {
     margin-top: 220px;
 }
 
-.micro-pad{
+.micro-pad {
     padding-top: 30px;
 }
 
-.SE-side{
+.SE-side {
     background-color: #48A47F;
     padding: 30px 50px 70px 50px;
 }
 
-.SE-main-container{
+.SE-main-container {
     display: flex;
     justify-content: center;
 }
 
-
-
-.section{
+.section {
     width: 100%;
     text-align: center;
     padding: 0 5%;
 }
 
-.decor-text{
-    color:#60D6A7;
+.decor-text {
+    color: #60D6A7;
     text-decoration: underline;
 }
 
-.text-space{
+.text-space {
     display: block;
 }
 
-
-.title__skills{
+.title__skills {
     margin-top: 20px;
 }
 
-.list{
+.list {
     list-style: none;
     margin-top: 10px;
 }
 
-.list li{
+.list li {
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Ubuntu', serif;
     margin-top: 20px;
 }
 
-
-.P-side{
+.P-side {
     background-color: #8AEBC3;
 }
 
-.L-side{
+.L-side {
     background-color: #60D6A7;
 }
 
-
-
-.__row{
+.__row {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.__col{
+.__col {
     margin: 0 20px;
     width: 400px;
     background-color: white;
-    box-shadow: 0 0 20px rgba(0,0,0,1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border-radius: 10px;
     height: 300px;
     margin-top: 40px;
     border: 3px solid rgba(255, 255, 255, .1);
-    cursor: pointer;   
+    cursor: pointer;
     font-family: 'Ubuntu', serif;
-
 }
 
-
-.col-pict{
+.col-pict {
     transition: .3s;
     height: 220px;
     background-color: rgba(134, 172, 150, 0.5);
@@ -249,21 +235,21 @@ a.to-top-button{
     transition: .3s;
 }
 
-.col-pict a img{
+.col-pict a img {
     height: inherit;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
 
-.col-pict:hover{
+.col-pict:hover {
     background-color: #00AE68;
 }
 
-.col-text{
+.col-text {
     padding: 3px 4px;
 }
 
-.circle{
+.circle {
     width: 700px;
     margin: auto;
     margin-top: 200px;
@@ -272,266 +258,219 @@ a.to-top-button{
     padding-bottom: 40px;
 }
 
-.refer{
+.refer {
     font-size: 100px;
     transition: 0.5s;
     color: teal;
 }
 
-
-
-.refer:nth-child(1):hover{
+.refer:nth-child(1):hover {
     color: #2C507A;
 }
 
-.refer:nth-child(2):hover{
+.refer:nth-child(2):hover {
     color: #0A66C2;
 }
 
-.refer:nth-child(3):hover{
+.refer:nth-child(3):hover {
     color: purple;
 }
 
-.refer:nth-child(4):hover{
+.refer:nth-child(4):hover {
     color: #B139A3;
 }
 
-.refer:nth-child(5):hover{
+.refer:nth-child(5):hover {
     color: red;
 }
 
-
 @media screen and (max-width: 1615px) {
-  #P.extra-padding {
-    padding: 20px 200px 30px 200px;
-  }
-
-  .section{
-      padding: 0;
-  }
+    #P.extra-padding {
+        padding: 20px 200px 30px 200px;
+    }
+    .section {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 1420px) {
     #P.extra-padding {
-      padding: 20px 80px 30px 80px;
+        padding: 20px 80px 30px 80px;
     }
-
-    p.about-text{
+    p.about-text {
         font-size: 22px;
     }
-
-    .text-title .title, .skills .title{
+    .text-title .title,
+    .skills .title {
         font-size: 60px;
     }
-
-    .title__skills{
+    .title__skills {
         font-size: 40px !important;
     }
-
-    .list li{
+    .list li {
         font-size: 22px;
     }
-
-    .my-photo img{
+    .my-photo img {
         width: 200px;
     }
+}
 
-  }
-
-  @media screen and (max-width: 1250px) {
-      .nav-panel{
-          padding-left: 0; 
-          padding-right: 0; 
-      }
-  }
-
-
-  @media screen and (max-width: 1200px) {
-    #P.extra-padding {
-      padding: 20px 50px 30px 50px;
+@media screen and (max-width: 1250px) {
+    .nav-panel {
+        padding-left: 0;
+        padding-right: 0;
     }
-  }
+}
 
-  @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     #P.extra-padding {
-      padding: 20px 20px 30px 20px;
+        padding: 20px 50px 30px 50px;
     }
-  }
+}
+
+@media screen and (max-width: 1100px) {
+    #P.extra-padding {
+        padding: 20px 20px 30px 20px;
+    }
+}
 
 @media screen and (max-width: 1050px) {
     .__row {
-      display: block;
+        display: block;
     }
-
-    .__col{
+    .__col {
         width: 300px;
     }
-
-    .proj-section{
+    .proj-section {
         display: flex;
         justify-content: space-between;
         padding: 0 50px;
     }
-
-    p.about-text{
+    p.about-text {
         font-size: 20px;
     }
-
-    .text-title .title, .skills .title{
+    .text-title .title,
+    .skills .title {
         font-size: 40px;
     }
-
-    .title__skills{
+    .title__skills {
         font-size: 24px !important;
     }
-
-    .list li{
+    .list li {
         font-size: 20px;
     }
+}
 
-  }
-
-  @media screen and (max-width: 950px) {
-      .title__top-side{
-          font-size: 60px;
-      }
-    
-      .welcome-side .sub-title{
-          font-size: 30px;
-      }
-
-      .nav-elem a{
+@media screen and (max-width: 950px) {
+    .title__top-side {
+        font-size: 60px;
+    }
+    .welcome-side .sub-title {
         font-size: 30px;
-      }
-      
+    }
+    .nav-elem a {
+        font-size: 30px;
+    }
+}
 
-  }
-  
-
-  @media screen and (max-width: 880px) {
-    .proj-section{
+@media screen and (max-width: 880px) {
+    .proj-section {
         display: block;
     }
-
-    .__col{
+    .__col {
         margin-left: auto;
         margin-right: auto;
     }
-
-    .circle{
+    .circle {
         display: block;
         margin-top: 20px;
         text-align: center;
         width: 100px;
     }
-
-    .refer{
+    .refer {
         display: block;
         position: relative;
     }
-
-    p.about-text{
+    p.about-text {
         font-size: 16px;
     }
-
-    .text-title .title, .skills .title{
+    .text-title .title,
+    .skills .title {
         font-size: 30px;
     }
-
-    .title__skills{
+    .title__skills {
         font-size: 22px !important;
     }
-
-    .list li{
+    .list li {
         font-size: 16px;
     }
-
-    .my-photo img{
+    .my-photo img {
         top: 100px;
     }
-
-    .SE-main-container{
+    .SE-main-container {
         display: block;
         padding: 0 100px;
         text-align: center;
     }
-
-    .my-photo img{
+    .my-photo img {
         margin-top: 40px;
         top: 0;
     }
-
-    .my-photo{
+    .my-photo {
         padding: 0;
     }
-
-    .skills .title{
+    .skills .title {
         margin-top: 40px;
     }
-
-    .about-text{
-    text-align: center;
-
+    .about-text {
+        text-align: center;
     }
-  }
+}
 
-  @media screen and (max-width: 750px){
-    .nav-panel{
+@media screen and (max-width: 750px) {
+    .nav-panel {
         display: block;
         justify-content: none;
     }
-
-    .nav-elem{
+    .nav-elem {
         margin-top: 10px;
         width: 100%;
     }
-
-    .title__top-side{
+    .title__top-side {
         font-size: 50px;
     }
-  
-    .welcome-side .sub-title{
+    .welcome-side .sub-title {
         font-size: 20px;
         overflow-wrap: break-word;
     }
+}
 
-  }
-
-  @media screen and (max-width: 580px){
-        .hidden{
-            display: block;
-        }
-
-      .P-side .title{
-          font-size: 60px;
-      }
-
-      .proj-section{
-          padding: 0;
-      }
-
-      .links .title{
+@media screen and (max-width: 580px) {
+    .hidden {
+        display: block;
+    }
+    .P-side .title {
         font-size: 60px;
-        }
-
-        .links .sub-title{
-            font-size: 30px;
-            }
-
-        .welcome-side .sub-title{
-        font-size: 16px;
-        }
-  }
-
-  @media screen and (max-width: 516px) {
-    .SE-main-container{
+    }
+    .proj-section {
         padding: 0;
     }
-  }
+    .links .title {
+        font-size: 60px;
+    }
+    .links .sub-title {
+        font-size: 30px;
+    }
+    .welcome-side .sub-title {
+        font-size: 16px;
+    }
+}
 
-
-
-
+@media screen and (max-width: 516px) {
+    .SE-main-container {
+        padding: 0;
+    }
+}
 
 
 /*
