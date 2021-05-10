@@ -1,0 +1,27 @@
+{
+  "name": "vityara.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VityaRa/VityaRa.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VityaRa/VityaRa.github.io/issues"
+  },
+  "homepage": "https://github.com/VityaRa/VityaRa.github.io#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
