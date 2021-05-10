@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 let $ = require("jquery");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 app.use(express.static(__dirname + "/public"));
 
 app.get("/api/users", (req, res) => {
