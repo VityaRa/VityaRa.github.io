@@ -1,18 +1,18 @@
 
 $(document).ready(function(){
 
-    async function getUser () {
-        const res = await fetch('/api/users', {
-            method: 'GET',
-        })
+    // async function getUser () {
+    //     const res = await fetch('/api/users', {
+    //         method: 'GET',
+    //     })
 
-        if (res.ok === true) {
-            const user = await res.json()
-            alert(`${user.name} - ${user.song}`)
-        }
-    }
+    //     if (res.ok === true) {
+    //         const user = await res.json()
+    //         alert(`${user.name} - ${user.song}`)
+    //     }
+    // }
 
-    getUser()
+    // getUser()
 // ProgressBar --------------------------------------------------------------
 /*const progress = {
     0: 60, //JS
